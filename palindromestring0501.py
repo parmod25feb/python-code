@@ -9,6 +9,7 @@ def palindrome_fuction(st):
         rev=ch + rev
     return rev
 
+# program execution will start from this point 
 flag = True
 while flag:
     st = input("\nPlease enter your string to check if it is palindrome or not : ")
