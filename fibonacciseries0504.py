@@ -2,8 +2,10 @@
 # Date : 05/04/2024
 # Author : Parmod Kumar
 
+# Ask user to add any value to print the fibonacci series
 mx = eval(input("\nPlease enter a max number to print the fibonacci series : "))
 
+# Function definition
 def fibonacci_series(mx):
     a,b=0,1
     c=a+b
@@ -13,5 +15,5 @@ def fibonacci_series(mx):
         a=b
         b=c
         c=a+b
-
+#Calling the function
 fibonacci_series(mx)
